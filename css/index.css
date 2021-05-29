@@ -1,0 +1,166 @@
+body {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 0%;
+}
+
+/* NAV BAR */
+
+.menu ul{
+    background-color: #333;
+    list-style: none;
+    height: 5vh;
+    margin: 0%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.menu li {
+    display: flex;
+    margin: 1%;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    padding-top: 2.5vh;
+    text-align: center;
+    height: 5vh;
+    width: 10vw;
+}
+
+.menu a:hover {
+    background-color: #3d9db3;
+}
+
+/* CONTEUDO DA PAGINA */
+
+.content {
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; 
+    height: 95vh;
+    background-color: #f2f2f2;
+}
+
+/* AREA DO LOGIN */
+
+.arealogin {
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 30vw;
+    background-color: #f7f7f7;
+    border: solid 1px #c7d8da;
+    border-radius: 12px;
+}
+
+.arealogin fieldset {
+    border: none;
+}
+
+/* PARTE DE CIMA DA AREA DE LOGIN */
+
+.logincima {
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+
+.logintitulo {
+    margin: 5% 0% 5% 0%;
+    text-align: center;
+    justify-content: center;
+}
+
+.logintitulo legend {
+    color: rgb(58, 127, 143);
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.logintitulo hr{
+    border: none;
+    height: 2px;
+    width: 25vw;
+    background-image: linear-gradient(to right, rgba(58, 127, 143, 0), rgba(58, 127, 143, 0.75), rgba(58, 127, 143, 0));
+}
+
+/* PARTE DO MEIO DA AREA DE LOGIN */
+
+.loginmeio {
+    color: #3a7f8f;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputtxt input{
+    width: 25vw;
+    height: 3vh;
+    margin-bottom: 4%;
+    display: flex;
+}
+
+.checkboxmeio {
+    color: #3a7f8f;
+    display: flex;
+    margin-left: 5%;
+}
+
+.buttonmeio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonmeio button {
+    font-size: 25px;
+    margin-top: 5%;
+    color: white;
+    background-color: #3d9db3;
+    width: 25.5vw;
+    height: 5vh;
+    border: none;
+    border-radius: 3%;
+    
+}
+
+/* PARTE DE BAIXO DA AREA DE LOGIN */
+
+.loginbaixo {
+    margin: 3% 0% 0% 0%;
+    height: 16vh;
+    display: flex;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    color: #959495;
+    background-color: #e1eaeb;
+}
+
+.loginbaixo p{
+    margin-top: 4%;
+    margin-left: 45%;
+}
+
+.loginbaixo button {
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10%;
+    margin: 10% 0% 0% 12%;
+    color: #1da2c1;
+    background-color: #fff;
+    height: 4vh;
+    width: 6vw;
+    border: solid 2px #dbe26b;
+}
